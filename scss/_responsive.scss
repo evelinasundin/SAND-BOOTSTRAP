@@ -1,0 +1,58 @@
+    /*MEDIA QUERIES*/
+
+ 
+@media screen and (min-width: 768px) {
+
+
+    .hamburgler-menu, .hamburgler-icon {
+        display: none;       
+    }
+
+    .hamburgler-icon {
+        cursor: none;
+    }
+
+    .hamburgler-icon-wrapper {
+        cursor: default;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.6)!important;
+    }
+
+
+    .photo, .text2, .photo3, .text4, .contphoto {
+        float: left;
+    }
+
+
+    .text, .photo2, .text3, .photo4, .conttext {
+        float: right;
+    }
+
+    .text, .text2, .text3, .text4 {
+        padding-top: 4%;
+    }
+
+
+
+    .contphoto, .conttext {
+        height: 400px;
+        width: 50%;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    .peopletext {
+        height: 200px;
+        width: 50%;
+    }
+
+
+}

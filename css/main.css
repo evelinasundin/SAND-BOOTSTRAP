@@ -1,0 +1,311 @@
+/*VARIABLER*/
+/*MIXINS*/
+/*COLOR CLASSES*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400");
+.ocean-color {
+  color: #4286f4; }
+
+.olympiaden-color {
+  color: #83D1B7; }
+
+.jack-color {
+  color: #AD771B; }
+
+.color-color {
+  color: #DD524D; }
+
+/*MARGIN CLASSES*/
+.mt-4 {
+  margin-top: 4%; }
+
+.mt-2 {
+  margin-top: 2%; }
+
+/*HEADERS*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+  font-family: "bebasneue", sans-serif; }
+
+h3 {
+  font-family: "bebasneue", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.125rem;
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: bold; }
+
+/*FONTS*/
+@font-face {
+  font-family: "bebasneue";
+  src: url(../fonts/bebasneue.otf); }
+/*HAMBURGER MENU */
+.icon-bar {
+  background-color: #ffc935; }
+
+.navbar {
+  background-color: transparent;
+  border: none; }
+
+.navbar-toggle {
+  float: left;
+  border: none; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffc935; }
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent; }
+
+.navbar-inverse .navbar-nav li a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFF; }
+
+.navbar-inverse .navbar-nav li a:hover {
+  transition: 0.2s;
+  letter-spacing: 0.2em; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6) !important; }
+
+/*HEADER*/
+header {
+  position: relative;
+  width: 100%;
+  display: flex; }
+
+header img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0; }
+
+header img:nth-of-type(5) {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: 18%;
+  margin-left: -18%;
+  z-index: 60; }
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 1; }
+  16% {
+    opacity: 0; }
+  32% {
+    opacity: 0; }
+  48% {
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  82% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+/*all but first picture in header*/
+header img:nth-child(-n+4) {
+  animation: FadeInOut 28s ease-in-out infinite normal; }
+
+header img:nth-of-type(1) {
+  animation-delay: 7s; }
+
+header img:nth-of-type(2) {
+  animation-delay: 14s; }
+
+header img:nth-of-type(3) {
+  animation-delay: 21s; }
+
+header img:nth-of-type(4) {
+  animation-delay: 28s; }
+
+/*ALL SECTION*/
+.all-section {
+  width: 90%;
+  padding-top: 57%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3.125rem; }
+
+.img-responsive {
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -ms-border-radius: 0.625rem;
+  border-radius: 0.625rem; }
+
+.cont-break {
+  font-family: "bebasneue";
+  font-size: 50px; }
+
+.text-cont {
+  font-family: "Montserrat";
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+  line-height: 1.5rem;
+  font-weight: 300; }
+
+.about-color {
+  font-size: 3rem;
+  color: #ffc935; }
+
+.about-text {
+  font-family: "Montserrat";
+  font-weight: 300; }
+
+.map-icon img {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 100px;
+  bottom: 100px;
+  -webkit-animation: jump 1.5s ease 0s infinite normal;
+  animation: jump 1.5s ease 0s infinite normal; }
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes jump {
+  0% {
+    transform: translateY(0); }
+  20% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  50% {
+    transform: translateY(0); }
+  60% {
+    transform: translateY(-15px); }
+  80% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0); } }
+.peopletext h2 {
+  color: #ffc935;
+  font-weight: bold; }
+
+.contphoto {
+  height: 200px;
+  width: 100%;
+  background: url(../img/map.png);
+  background-size: cover;
+  background-color: grey; }
+
+.conttext {
+  height: 400px;
+  background-color: grey; }
+
+.box-header2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 3rem; }
+
+.text-cont2 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+  line-height: 2rem;
+  margin-top: 4%;
+  font-weight: 300; }
+
+.fotsand {
+  float: left;
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 6em;
+  left: 0.6em;
+  letter-spacing: 0.13em;
+  font-weight: 400; }
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem; }
+
+.foot-sec {
+  width: 100%;
+  position: relative;
+  /*display: flex;
+  flex-direction: row;*/
+  display: table;
+  background-color: #ffc935;
+  margin: 0; }
+
+.footer-links {
+  /*display: flex;*/
+  float: right;
+  margin-top: 4em;
+  /*margin-top: 8em;*/ }
+
+.footer-links img {
+  width: 4em;
+  padding: 0.625rem;
+  display: inline;
+  float: right;
+  /*max-width: auto;*/ }
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 768px) {
+  .hamburgler-menu, .hamburgler-icon {
+    display: none; }
+
+  .hamburgler-icon {
+    cursor: none; }
+
+  .hamburgler-icon-wrapper {
+    cursor: default; }
+
+  nav {
+    background-color: rgba(0, 0, 0, 0.6) !important; }
+
+  .photo, .text2, .photo3, .text4, .contphoto {
+    float: left; }
+
+  .text, .photo2, .text3, .photo4, .conttext {
+    float: right; }
+
+  .text, .text2, .text3, .text4 {
+    padding-top: 4%; }
+
+  .contphoto, .conttext {
+    height: 400px;
+    width: 50%; }
+
+  .container {
+    display: flex;
+    justify-content: center; }
+
+  .peopletext {
+    height: 200px;
+    width: 50%; } }
+
+/*# sourceMappingURL=main.css.map */

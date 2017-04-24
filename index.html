@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>SAND</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<!-- Custom Fonts -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald%7CMontserrat%7CSource+Sans+Pro:300,400">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Theme CSS -->
+
+	<link rel="stylesheet" href="css/main.css" />
+	<!-- Theme CSS -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+	<script>
+	/*SMOOTH SCROLL JQUERY*/
+
+  	$(function() {
+ 	$('a[href*="#"]:not([href="#"])').click(function() {
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+       $('html, body').animate({
+         scrollTop: target.offset().top
+       }, 1000);
+       return false;
+     }
+   }
+ 	});
+	});
+	</script>
+
+
+
+</head>
+
+<body>
+
+	<div id="startlink"></div>
+
+	<!-- header -->
+	<header>
+
+		<!--background img -->
+		<img src="img/color.jpg">
+		<img src="img/jack.jpg">
+		<img src="img/sport.jpg">
+		<img src="img/volvo.jpg">
+		<img src="img/logo.svg">
+
+	<!-- navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+	        <div class="navbar-header">
+	      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      		</button>
+    	</div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="text-uppercase nav navbar-nav">
+					<li><a href="#startlink">Start</a></li>
+					<li><a href="#worklink">Work</a></li>
+					<li><a href="#aboutlink">About</a></li>
+					<li><a href="#contactlink">Contact</a></li>
+				</ul>
+		</div>
+		</div>
+ 	</nav>
+
+</header>
+
+<!-- CONTENT SECTION FOR SETTING WIDTH FOR WHOLE PAGE -->
+<section class="all-section">
+
+	<section>
+		<div id="work"></div>
+		<h2 class="mt-2 text-center cont-break" id="worklink">Work</h2>
+
+
+
+		<div class="mt-4 container-fluid text-center photext">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 photo">
+				
+        		<img class="img-responsive" src="img/sport.jpg" alt="Responsive image">
+        		
+            
+    			</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text">
+
+					<h3 class="olympiaden-color">Olympiaden</h3>
+					<h2>COMMERCIAL/WEBSITE</h2>
+					<p class="text-cont">
+						Olympiaden is a Swedish fashion store that is marketing and focusing on selling gym clothes. Founded in 2010 and are passionate about helping their customers navigate through a variety of designers. Our contribute was to make a redesign of their website
+						and filming and directing their new TV-commercial.</p>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid text-center photext">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 photo2">
+
+				<img class ="img-responsive" src="img/jack_1920.jpg" alt="Responsive image">
+				
+			</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text2">
+					<h3 class="jack-color">Eyesight</h3>
+					<h2>COMMERCIAL</h2>
+					<p class="text-cont">
+						50 years ago eyesight opened up their first store, today the company consists of over 100 stores all over Sweden which makes them one of the leading companies in optics. Their goal is to provide quality optics that everyone can afford. We signed up to
+						be a part of their new commercial that we helped shoot and edit.</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="container-fluid text-center photext">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 photo3">
+			
+				<img class ="img-responsive" src="img/volvo.jpg" class="img-fluid" alt="Responsive image">
+				
+            </div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text3">
+					<h3 class="ocean-color">ocean</h3>
+					<h2>COMMERCIAL/WEBSITE</h2>
+					<p class="text-cont">
+						A recently new started company that opens up the world of traveling through the simplicity of an app. We signed up to help them get started with a information website and a tv-commercial.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid text-center photext">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 photo4">
+		
+				<img class ="img-responsive" src="img/color.jpg" class="img-fluid" alt="Responsive image">
+				
+            </div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text4">
+					<h3 class="color-color">Färgkollektivet</h3>
+					<h2>MARKETING/FILM</h2>
+					<p class="text-cont">
+						New Stockholm club venture. Rooted in a desire to explore the future of contemporary Swedish culture wanting to promote culture and acts as a modern patron of the arts. Färgkollektivet needed a new marketing film to be able to spread their ideas and venture,
+						which we gladly signed up to be part of.</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+		<section>	
+			<div id="about"></div>
+			<h2 class="mt-4 text-center cont-break" id="aboutlink">About Us</h2>
+			<div class="mt-4 container-fluid texttext">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center about-text">
+						<h3 class="about-color">we create design with meaning. great design speaks to your head and your heart. it makes you feel differently, it makes you remember and respond.</span></h2>
+
+						<p class="about-text">That's what we aim for: to go from insight to ideas to design that connects. To craft things with intelligence, sensitivity and precision.<br/>		                
+		                It doesn't happen in isolation. that's why we work collaboratively with our clients. As an international collective, we take a global outlook.<br/>
+		            	We're open. We share. We learn.<br/>
+		                The result. Intelligent, effective design that makes a lasting impression.<br/></p>
+
+		                <p class="about-text">We are an advertising agency that offers our clients customized creative solutions through film, photo, branding and digital marketing on the web.<br/>We cooperate with some of the biggest companies but also smaller ones. The one thing our clients have in common is that if we do not sell their products or services, we fail. Therefore, we never give up.We are an advertising agency that offers our clients customized creative solutions through film, photo, branding and digital marketing on the web. We cooperate with some of the biggest companies but also smaller ones. The one thing our clients have in common is that if we do not sell their products or services, we fail. Therefore, we never give up.</p>
+
+		                <p class="about-text">We like communicative problems. But above all we like smart solutions. Creative, original, unexpected solutions that make people say: ”I know it is advertising but it is so god damn good that it doesn’t matter.” We maintain a close cooperation with our clients throughout the entire process of creating something great, all the way from the strategic start-up to the creative solution. That is the key for successful communication.</p>																						
+					</div>
+				</div>
+			</div>
+
+				<div class="container-fluid photext">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 text-center peopletext">
+							<h2 class="font-weight-bold">Peter Sandqvist</h2>
+							<p class="text-cont">
+								CEO<br/>peter@sand.se</p>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 text-center peopletext">
+							<h2>Evelina Sundin</h2>
+							<p class="text-cont">
+								DESIGNER<br/>evelina@sand.se</p>
+						</div>
+					</div>
+			</div>
+
+			<div class="container-fluid photext">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center peopletext">
+						<h2>Anna Hallgren</h2>
+						<p class="text-cont">
+							PROJECT MANAGER<br/>anna@sand.se</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center peopletext">
+						<h2>Kevin Larsson</h2>
+						<p class="text-cont">
+							FRONT END DEVELOPER<br/>kevin@sand.se</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section>
+				<div id='contact'></div>
+				<h2 class="text-center cont-break" id="contactlink">Contact</h2>
+
+				<div class="container-fluid text-center swag5">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contphoto"><div class="map-icon"><img src="img/map_icon.svg"></div></div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 conttext">
+							<h2 class="box-header2">Sand</h2>
+							<p class="text-center text-cont2">
+								Sandvägen 11<br/>1165 Stockholm<br/>08-391573<br/>info@sand.se<br/></p>
+								<p class="text-center text-cont2">
+									Hope to hear from you soon!<br/></p>
+						</div>
+
+					</div>
+				</div>
+		</section>
+		</section>
+
+		<footer>
+            <section class="foot-sec">
+                <form class ="form-inline">
+                    <label class="sr-only" for="inlineFormInput">Join Us!</label>
+                    	<div class="input-group mb-2 mr-sm-2 mb-sm-0">  
+                    	<div class = "center-form">             
+                        	<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Join Us!">
+                        		<div class="input-group-addon"><img src="img/right-arrow.svg" height="20px"></div>
+                    	</div>
+                    	</div>
+
+                </form>
+
+               	<div class="footer-links">
+	                <a href="https://www.facebook.com"><img class="img-responsive" src="img/facebook.svg"></a>
+	                <a href="https://www.twitter.com"><img class="img-responsive" src="img/twitter.svg"></a>
+	                <a href="https://www.github.com"><img class="img-responsive" src="img/github.svg"></a>
+	                <a href="https://www.instagram.com"><img class="img-responsive" src="img/instagram.svg"></a>
+
+                </div>
+            <div class="fotsand">©SAND 2017</div>
+            </section>
+        </footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+				
+
+</body>
+
+</html>
